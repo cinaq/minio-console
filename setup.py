@@ -4,19 +4,19 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='example_pypi_package',
-    author='Tom Chen',
-    author_email='tomchen.org@gmail.com',
-    description='Example PyPI (Python Package Index) Package',
-    keywords='example, pypi, package',
+    name='minio_console',
+    author='Xiwen Cheng',
+    author_email='x@cinaq.com',
+    description='Python library to interact with MinIO console',
+    keywords='minio, s3, console, ansible, minio-console',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/tomchen/example_pypi_package',
     project_urls={
-        'Documentation': 'https://github.com/tomchen/example_pypi_package',
+        'Documentation': 'https://github.com/cinaq/minio-console',
         'Bug Reports':
-        'https://github.com/tomchen/example_pypi_package/issues',
-        'Source Code': 'https://github.com/tomchen/example_pypi_package',
+        'https://github.com/cinaq/minio-console/issues',
+        'Source Code': 'https://github.com/cinaq/minio-console',
         # 'Funding': '',
         # 'Say Thanks!': '',
     },
@@ -39,7 +39,7 @@ setuptools.setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
-    # install_requires=['Pillow'],
+    install_requires=['requests', ],
     extras_require={
         'dev': ['check-manifest'],
         # 'test': ['coverage'],
