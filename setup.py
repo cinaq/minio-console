@@ -11,7 +11,7 @@ setuptools.setup(
     keywords='minio, s3, console, ansible, minio-console',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/tomchen/example_pypi_package',
+    url='https://github.com/cinaq/minio-console',
     project_urls={
         'Documentation': 'https://github.com/cinaq/minio-console',
         'Bug Reports':
